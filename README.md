@@ -10,7 +10,7 @@ Based on **API_Labs / FastAPI_Labs** from the MLOps course (IE7305). The origina
 
 | Tool | Version used | Check with |
 |---|---|---|
-| Python | 3.13.7 (3.10 or newer recommended) | `python3 --version` |
+| Python | 3.13.7 (tested version) | `python3 --version` |
 | Git | any recent version | `git --version` |
 
 Python packages (installed in step 3, pinned in `requirements.txt`):
@@ -24,7 +24,7 @@ Python packages (installed in step 3, pinned in `requirements.txt`):
 | pytest | 9.1.1 | Automated tests |
 | httpx | 0.28.1 | Used by the FastAPI test client |
 
-Note: the original lab pinned `scikit-learn==1.5.1`, which does not install on Python 3.13, so all versions were updated.
+Note: the original lab pinned older versions (scikit-learn 1.5.1, FastAPI 0.111.1). These were updated to current releases, which were tested with Python 3.13.7.
 
 ---
 
